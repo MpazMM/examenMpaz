@@ -3,7 +3,7 @@
     <persistence-unit name="hibernateMySQL" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- entidades o entities -->
-        <class>hibernate.basics.entities.Cliente</class>
+        <class>es.curso.java.hql.ejercicio.usuario.entity.UserEntity</class>
 
         
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
@@ -22,7 +22,7 @@
     <persistence-unit name="hibernateOracle" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- entidades o entities -->
-        <class>hibernate.basics.entities.Cliente</class>
+        <class>es.curso.java.hql.producto.entity.ProductoOracle</class>
         
         
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
@@ -33,7 +33,7 @@
             <property name="jakarta.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
             <property name="hibernate.show_sql" value="true"/>
- 			<property name="hibernate.hbm2ddl.auto" value="create"/>
+ 			<property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
     </persistence-unit>
     
