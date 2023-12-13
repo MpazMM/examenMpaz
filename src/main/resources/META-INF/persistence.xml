@@ -22,7 +22,7 @@
     <persistence-unit name="hibernateOracle" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- entidades o entities -->
-        <class>es.curso.java.hql.producto.entity.ProductoOracle</class>
+        <class>es.curso.java.ejercicioHibernate.entity.Contrato</class>
         
         
         <exclude-unlisted-classes>true</exclude-unlisted-classes>

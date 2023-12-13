@@ -1,0 +1,8 @@
+CREATE TABLE TB_PRODUCTOS (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nombre_producto VARCHAR(40) NOT NULL,
+    tipo_producto ENUM('Alimentacion', 'Electronica', 'Ropa') NOT NULL COMMENT "Alimentación, electrónica o ropa",
+    precio DECIMAL(10,2) NOT NULL,
+    stock INT NOT NULL
+);
+
