@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
+<Configuration status="DEBUG">
 	<Properties>
 		<Property name="logPath">.\logs</Property>
 		<Property name="rollingFileName">curso-java</Property>
@@ -26,7 +26,7 @@
 		<Logger name="hibernate" level="debug" additivity="false">
 			<AppenderRef ref="LogToConsole" />
 		</Logger>
-		<Logger name="curso.java.hibernate" level="debug"
+		<Logger name="es.curso.java" level="debug"
 			additivity="false">
 			<AppenderRef ref="LogToConsole" />
 			 <AppenderRef ref="rollingFile"/>

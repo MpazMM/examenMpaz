@@ -79,10 +79,10 @@ public class ProductoHibernateDAO {
 
 		TypedQuery<ProductosInfo> query = 
 				em.createQuery("" + "SELECT " + 
-					"new es.curso.java.hibernate.ejercicios.ejercicio2.pojos.ProductosInfo( " + 
+					"new es.curso.java.hql.producto.pojo.ProductosInfo( " + 
 					"ROUND(AVG(p.precio),2) , " + 
 					"SUM(p.unidades), p.tipo ) "
-				+ "from Producto p " + "GROUP BY p.tipo",ProductosInfo.class);
+				+ "from ProductoOracle p " + "GROUP BY p.tipo",ProductosInfo.class);
 
 		List<ProductosInfo> respuesta = query.getResultList();
 
