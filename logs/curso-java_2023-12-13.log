@@ -1,0 +1,61 @@
+10:52:35.790 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - rutaFichero: ./ficheros/fichero_carga_ejercicio2.txt skipLines: 1
+10:52:35.800 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Leyendo documento
+10:52:35.871 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Tue Oct 10 00:00:00 CEST 2023
+10:52:35.876 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO1, tipo=TIPO1, fechaAlta=Tue Oct 10 00:00:00 CEST 2023, precio=5000, unidades=3]
+10:52:35.881 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Wed Oct 11 00:00:00 CEST 2023
+10:52:35.883 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO2, tipo=TIPO2, fechaAlta=Wed Oct 11 00:00:00 CEST 2023, precio=1000, unidades=6]
+10:52:35.889 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Thu Oct 12 00:00:00 CEST 2023
+10:52:35.890 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO3, tipo=TIPO3, fechaAlta=Thu Oct 12 00:00:00 CEST 2023, precio=3000, unidades=7]
+10:52:35.892 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Fri Oct 13 00:00:00 CEST 2023
+10:52:35.894 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO4, tipo=TIPO1, fechaAlta=Fri Oct 13 00:00:00 CEST 2023, precio=5000, unidades=9]
+10:52:35.897 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Sat Oct 14 00:00:00 CEST 2023
+10:52:35.898 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO5, tipo=TIPO3, fechaAlta=Sat Oct 14 00:00:00 CEST 2023, precio=7000, unidades=8]
+10:52:35.900 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Sun Oct 15 00:00:00 CEST 2023
+10:52:35.900 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO6, tipo=TIPO2, fechaAlta=Sun Oct 15 00:00:00 CEST 2023, precio=200, unidades=13]
+10:52:35.903 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Mon Oct 16 00:00:00 CEST 2023
+10:52:35.912 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO7, tipo=TIPO1, fechaAlta=Mon Oct 16 00:00:00 CEST 2023, precio=25000, unidades=1]
+10:52:35.914 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Fecha alta Tue Oct 17 00:00:00 CEST 2023
+10:52:35.915 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos leerFicheroProductos - Producto alta ProductoOracle [id=0, nombre=PRODUCTO8, tipo=TIPO3, fechaAlta=Tue Oct 17 00:00:00 CEST 2023, precio=15000, unidades=2]
+10:52:36.697 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - Empieza
+10:52:36.700 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=1, nombre=PRODUCTO1, tipo=TIPO1, fechaAlta=Tue Oct 10 00:00:00 CEST 2023, precio=5000, unidades=3]
+10:52:36.701 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=2, nombre=PRODUCTO2, tipo=TIPO2, fechaAlta=Wed Oct 11 00:00:00 CEST 2023, precio=1000, unidades=6]
+10:52:36.704 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=3, nombre=PRODUCTO3, tipo=TIPO3, fechaAlta=Thu Oct 12 00:00:00 CEST 2023, precio=3000, unidades=7]
+10:52:36.705 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=4, nombre=PRODUCTO4, tipo=TIPO1, fechaAlta=Fri Oct 13 00:00:00 CEST 2023, precio=5000, unidades=9]
+10:52:36.706 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=5, nombre=PRODUCTO5, tipo=TIPO3, fechaAlta=Sat Oct 14 00:00:00 CEST 2023, precio=7000, unidades=8]
+10:52:36.707 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=6, nombre=PRODUCTO6, tipo=TIPO2, fechaAlta=Sun Oct 15 00:00:00 CEST 2023, precio=200, unidades=13]
+10:52:36.708 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=7, nombre=PRODUCTO7, tipo=TIPO1, fechaAlta=Mon Oct 16 00:00:00 CEST 2023, precio=25000, unidades=1]
+10:52:36.709 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - ProductoOracle [id=8, nombre=PRODUCTO8, tipo=TIPO3, fechaAlta=Tue Oct 17 00:00:00 CEST 2023, precio=15000, unidades=2]
+10:52:36.710 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarProductos - Termina
+10:52:42.836 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarFecha - fecha: Fri Oct 13 00:00:00 CEST 2023
+10:52:42.886 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarFecha - Empieza
+10:52:42.887 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarFecha - ProductoOracle [id=4, nombre=PRODUCTO4, tipo=TIPO1, fechaAlta=Fri Oct 13 00:00:00 CEST 2023, precio=5000, unidades=9]
+10:52:42.887 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarFecha - Termina
+10:52:42.888 [main] INFO  es.curso.java.hql.producto.main.DirectorioProductos mostrarOperaciones - Entrando a mostrar las operaciones
+10:52:42.932 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker reportError -  Unable to locate appropriate constructor on class [es.curso.java.hql.producto.entity.ProductoOracle]. Expected arguments are: double, long, java.lang.String
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: es.curso.java.hql.producto.entity.ProductoOracle]
+10:52:42.934 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker reportError -  Unable to locate appropriate constructor on class [es.curso.java.hql.producto.entity.ProductoOracle]. Expected arguments are: double, long, java.lang.String
+[cause=org.hibernate.PropertyNotFoundException: no appropriate constructor in class: es.curso.java.hql.producto.entity.ProductoOracle]
+org.hibernate.hql.internal.ast.DetailedSemanticException: Unable to locate appropriate constructor on class [es.curso.java.hql.producto.entity.ProductoOracle]. Expected arguments are: double, long, java.lang.String
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.resolveConstructor(ConstructorNode.java:182) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.ast.tree.ConstructorNode.prepare(ConstructorNode.java:144) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.processConstructor(HqlSqlWalker.java:1271) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExpr(HqlSqlBaseWalker.java:2409) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectExprList(HqlSqlBaseWalker.java:2275) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectClause(HqlSqlBaseWalker.java:1534) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:611) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:339) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:287) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) [hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:636) [hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:748) [hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:848) [hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) [hibernate-core-jakarta-5.6.12.Final.jar:5.6.12.Final]
+	at es.curso.java.hql.producto.dao.ProductoHibernateDAO.getInfoTiposProductosHQL(ProductoHibernateDAO.java:81) [classes/:?]
+	at es.curso.java.hql.producto.main.DirectorioProductos.mostrarOperaciones(DirectorioProductos.java:55) [classes/:?]
+	at es.curso.java.hql.producto.main.DirectorioProductos.iniciar(DirectorioProductos.java:47) [classes/:?]
+	at es.curso.java.hql.producto.main.DirectorioProductos.main(DirectorioProductos.java:32) [classes/:?]
